@@ -3,10 +3,8 @@ title:
 keywords: Azure, python, SDK, API, azure-servicefabric, servicefabric
 author: QingChenmsft
 ms.author: QingChenmsft
-ms.date: 12/14/2021
+ms.date: 05/02/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: servicefabric
 ---
@@ -22,7 +20,7 @@ For a more complete view of Azure libraries, see the [azure sdk python release](
 
 
 
-For code examples, see [Service Fabric](https://docs.microsoft.com/python/api/overview/azure/servicefabric) on docs.microsoft.com.
+For code examples, see [Service Fabric](/python/api/overview/azure/servicefabric) on docs.microsoft.com.
 
 
 # Provide Feedback
