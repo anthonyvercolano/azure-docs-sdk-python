@@ -3,16 +3,14 @@ title: Azure Conversational Language Understanding client library for Python
 keywords: Azure, python, SDK, API, azure-ai-language-conversations, cognitivelanguage
 author: lmazuel
 ms.author: lmazuel
-ms.date: 04/19/2022
+ms.date: 05/02/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: cognitivelanguage
 ---
 [![Build Status](https://dev.azure.com/azure-sdk/public/_apis/build/status/azure-sdk-for-python.client?branchName=main)](https://dev.azure.com/azure-sdk/public/_build/latest?definitionId=46?branchName=main)
 
-# Azure Conversational Language Understanding client library for Python - Version 1.0.0b3 
+# Azure Conversational Language Understanding client library for Python - Version 1.0.0a20220502001 
 
 Conversational Language Understanding, aka **CLU** for short, is a cloud-based conversational AI service which is mainly used in bots to extract useful information from user utterance (natural language processing).
 The CLU **analyze api** encompasses two projects; conversation, and orchestration projects.
@@ -275,7 +273,7 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct][code_of_conduct]. For more information see the [Code of Conduct FAQ][coc_faq] or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
 <!-- LINKS -->
-[azure_cli]: https://docs.microsoft.com/cli/azure/
+[azure_cli]: /cli/azure/
 [azure_portal]: https://portal.azure.com/
 [azure_subscription]: https://azure.microsoft.com/free/
 
@@ -283,20 +281,20 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [coc_contact]: mailto:opencode@microsoft.com
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
-[cognitive_auth]: https://docs.microsoft.com/azure/cognitive-services/authentication/
-[contributing]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-language-conversations_1.0.0b3/CONTRIBUTING.md
+[cognitive_auth]: /azure/cognitive-services/authentication/
+[contributing]: https://github.com/Azure/azure-sdk-for-python/blob/main/CONTRIBUTING.md
 [python_logging]: https://docs.python.org/3/library/logging.html
-[sdk_logging_docs]: https://docs.microsoft.com/azure/developer/python/azure-sdk-logging
+[sdk_logging_docs]: /azure/developer/python/azure-sdk-logging
 [azure_core_ref_docs]: https://azuresdkdocs.blob.core.windows.net/$web/python/azure-core/latest/azure.core.html
-[azure_core_readme]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-language-conversations_1.0.0b3/sdk/core/azure-core/README.md
+[azure_core_readme]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md
 [pip_link]:https://pypi.org/project/pip/
-[conversationallanguage_client_src]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-language-conversations_1.0.0b3/sdk/cognitivelanguage/azure-ai-language-conversations
+[conversationallanguage_client_src]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/cognitivelanguage/azure-ai-language-conversations
 [conversationallanguage_pypi_package]: https://pypi.org/project/azure-ai-language-conversations/
 [api_reference_documentation]:https://azuresdkdocs.blob.core.windows.net/$web/python/azure-ai-language-conversations/latest/azure.ai.language.conversations.html
-[conversationallanguage_refdocs]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-language-conversations_1.0.0b3/sdk/cognitivelanguage/azure-ai-language-conversations
-[conversationallanguage_docs]: https://docs.microsoft.com/azure/cognitive-services/language-service/conversational-language-understanding/overview
-[conversationallanguage_samples]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-language-conversations_1.0.0b3/sdk/cognitivelanguage/azure-ai-language-conversations/samples/README.md
+[conversationallanguage_refdocs]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/cognitivelanguage/azure-ai-language-conversations
+[conversationallanguage_docs]: /azure/cognitive-services/language-service/conversational-language-understanding/overview
+[conversationallanguage_samples]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/cognitivelanguage/azure-ai-language-conversations/samples/README.md
 [conversationanalysis_client_class]: https://azuresdkdocs.blob.core.windows.net/$web/python/azure-ai-language-conversations/latest/azure.ai.language.conversations.html#azure.ai.language.conversations.ConversationAnalysisClient
-[azure_core_exceptions]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-language-conversations_1.0.0b3/sdk/core/azure-core/README.md
+[azure_core_exceptions]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fsdk%2Ftemplate%2Fazure-template%2FREADME.png)
 
