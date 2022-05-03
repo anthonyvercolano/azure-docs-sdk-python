@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-web",
-  "Version": "6.1.0a20220330001",
-  "DevVersion": "6.1.0a20220330001",
+  "Version": "6.1.0a20220502001",
+  "DevVersion": "6.1.0a20220502001",
   "DirectoryPath": "sdk/appservice/azure-mgmt-web",
   "ServiceDirectory": "appservice",
   "ReadMePath": "sdk/appservice/azure-mgmt-web/README.md",
