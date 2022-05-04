@@ -3,14 +3,12 @@ title: Azure Confidential Ledger client library for Python
 keywords: Azure, python, SDK, API, azure-confidentialledger, confidentialledger
 author: lmazuel
 ms.author: lmazuel
-ms.date: 03/31/2022
+ms.date: 05/04/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: confidentialledger
 ---
-# Azure Confidential Ledger client library for Python - Version 1.0.0a20220330001 
+# Azure Confidential Ledger client library for Python - Version 1.0.0a20220503001 
 
 
 Azure Confidential Ledger provides a service for logging to an immutable, tamper-proof ledger. As part of the [Azure Confidential Computing][azure_confidential_computing] portfolio, Azure Confidential Ledger runs in secure, hardware-based trusted execution environments, also known as enclaves. It is built on Microsoft Research's [Confidential Consortium Framework][ccf].
@@ -466,13 +464,13 @@ For more information, see the
 contact opencode@microsoft.com with any additional questions or comments.
 
 
-[azure_cli]: https://docs.microsoft.com/cli/azure
+[azure_cli]: /cli/azure
 [azure_cloud_shell]: https://shell.azure.com/bash
 [azure_confidential_computing]: https://azure.microsoft.com/solutions/confidential-compute
 [azure_core_exceptions]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core#azure-core-library-exceptions
 [azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity
 [azure_identity_pypi]: https://pypi.org/project/azure-identity/
-[azure_resource_manager]: https://docs.microsoft.com/azure/azure-resource-manager/management/overview
+[azure_resource_manager]: /azure/azure-resource-manager/management/overview
 [azure_sub]: https://azure.microsoft.com/free
 [ccf]: https://github.com/Microsoft/CCF
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct
