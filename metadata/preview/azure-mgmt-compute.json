@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-compute",
-  "Version": "26.1.0a20220330001",
-  "DevVersion": "26.1.0a20220330001",
+  "Version": "26.1.0a20220503001",
+  "DevVersion": "26.1.0a20220503001",
   "DirectoryPath": "sdk/compute/azure-mgmt-compute",
   "ServiceDirectory": "compute",
   "ReadMePath": "sdk/compute/azure-mgmt-compute/README.md",
