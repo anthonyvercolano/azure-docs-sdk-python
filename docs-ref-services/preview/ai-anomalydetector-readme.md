@@ -3,10 +3,8 @@ title:
 keywords: Azure, python, SDK, API, azure-ai-anomalydetector, anomalydetector
 author: conhua
 ms.author: conhua
-ms.date: 03/31/2022
+ms.date: 05/04/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: anomalydetector
 ---
@@ -20,7 +18,7 @@ For a more complete set of Azure libraries, see the
 
 # Usage
 
-For code examples, see [Cognitive Services Anomaly Detector](https://docs.microsoft.com/python/api/overview/azure/cognitive-services)
+For code examples, see [Cognitive Services Anomaly Detector](/python/api/overview/azure/cognitive-services)
 on docs.microsoft.com.
 
 
