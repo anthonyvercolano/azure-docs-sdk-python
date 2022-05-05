@@ -10,8 +10,8 @@ inheritances:
 - builtins.str
 - enum.Enum
 fields:
-- name: V3_2_PREVIEW
-  uid: azure.ai.textanalytics.TextAnalyticsApiVersion.V3_2_PREVIEW
+- name: V2022_04_01_PREVIEW
+  uid: azure.ai.textanalytics.TextAnalyticsApiVersion.V2022_04_01_PREVIEW
 - name: V3_0
   uid: azure.ai.textanalytics.TextAnalyticsApiVersion.V3_0
 - name: V3_1

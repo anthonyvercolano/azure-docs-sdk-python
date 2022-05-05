@@ -6,8 +6,20 @@ summary: Authorization helper functions in the Azure Cosmos database service.
 functions:
 - uid: azure.cosmos.auth.GetAuthorizationHeader
   name: GetAuthorizationHeader
-  summary: Gets the authorization header.
   signature: GetAuthorizationHeader(cosmos_client_connection, verb, path, resource_id_or_fullname,
+    is_name_based, resource_type, headers)
+  parameters:
+  - name: cosmos_client_connection
+  - name: verb
+  - name: path
+  - name: resource_id_or_fullname
+  - name: is_name_based
+  - name: resource_type
+  - name: headers
+- uid: azure.cosmos.auth.get_authorization_header
+  name: get_authorization_header
+  summary: Gets the authorization header.
+  signature: get_authorization_header(cosmos_client_connection, verb, path, resource_id_or_fullname,
     is_name_based, resource_type, headers)
   parameters:
   - name: cosmos_client
@@ -38,4 +50,4 @@ functions:
   return:
     description: The authorization headers.
     types:
-    - <xref:dict>
+    - <xref:str>

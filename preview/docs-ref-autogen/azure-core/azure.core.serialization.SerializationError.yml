@@ -1,0 +1,10 @@
+### YamlMime:PythonClass
+uid: azure.core.serialization.SerializationError
+name: SerializationError
+fullName: azure.core.serialization.SerializationError
+module: azure.core.serialization
+inheritances:
+- builtins.ValueError
+summary: Raised if an error is encountered during serialization.
+constructor:
+  syntax: SerializationError()
