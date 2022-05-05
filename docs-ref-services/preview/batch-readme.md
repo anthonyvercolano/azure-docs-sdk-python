@@ -3,10 +3,8 @@ title:
 keywords: Azure, python, SDK, API, azure-batch, batch
 author: cRui861
 ms.author: rechen
-ms.date: 03/31/2022
+ms.date: 05/05/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: batch
 ---
@@ -21,7 +19,7 @@ For a more complete set of Azure libraries, see https://aka.ms/azsdk/python/all
 # Usage
 
 For code examples, see [the Batch samples repo](https://github.com/Azure/azure-batch-samples/tree/master/Python)
-on GitHub or see [Batch](https://docs.microsoft.com/python/api/overview/azure/batch)
+on GitHub or see [Batch](/python/api/overview/azure/batch)
 on docs.microsoft.com.
 
 
