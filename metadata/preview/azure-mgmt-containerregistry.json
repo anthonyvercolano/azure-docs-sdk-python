@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-containerregistry",
-  "Version": "9.1.0a20220330002",
-  "DevVersion": "9.1.0a20220330002",
+  "Version": "9.1.0a20220504002",
+  "DevVersion": "9.1.0a20220504002",
   "DirectoryPath": "sdk/containerregistry/azure-mgmt-containerregistry",
   "ServiceDirectory": "containerregistry",
   "ReadMePath": "sdk/containerregistry/azure-mgmt-containerregistry/README.md",
