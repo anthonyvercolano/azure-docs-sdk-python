@@ -117,6 +117,14 @@
     - name: Management
       children:
       - azure-mgmt-automation
+  - name: Autosuggest
+    href: ~/docs-ref-services/{moniker}/autosuggest.md
+    landingPageType: Service
+    items:
+    - name: Autosuggest
+      href: ~/docs-ref-services/{moniker}/cognitiveservices-search-autosuggest-readme.md
+      children:
+      - azure-cognitiveservices-search-autosuggest
   - name: Azure AD B2C
     href: ~/docs-ref-services/{moniker}/azure-ad-b2c.md
     landingPageType: Service
@@ -547,6 +555,13 @@
     - name: Management
       children:
       - azure-mgmt-desktopvirtualization
+  - name: Dev Spaces
+    href: ~/docs-ref-services/{moniker}/dev-spaces.md
+    landingPageType: Service
+    items:
+    - name: Management
+      children:
+      - azure-mgmt-devspaces
   - name: DevTest Labs
     href: ~/docs-ref-services/{moniker}/devtest-labs.md
     landingPageType: Service
@@ -831,6 +846,7 @@
     items:
     - name: Management
       children:
+      - azure-mgmt-machinelearningcompute
       - azure-mgmt-machinelearningservices
   - name: Maintenance
     href: ~/docs-ref-services/{moniker}/maintenance.md
@@ -1209,6 +1225,13 @@
     - name: Management
       children:
       - azure-mgmt-serialconsole
+  - name: Server Management
+    href: ~/docs-ref-services/{moniker}/server-management.md
+    landingPageType: Service
+    items:
+    - name: Management
+      children:
+      - azure-mgmt-servermanager
   - name: Service Bus
     href: ~/docs-ref-services/{moniker}/service-bus.md
     landingPageType: Service
