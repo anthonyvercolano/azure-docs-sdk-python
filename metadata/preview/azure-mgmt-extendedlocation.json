@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-extendedlocation",
-  "Version": "1.0.0a20220330001",
-  "DevVersion": "1.0.0a20220330001",
+  "Version": "1.0.0a20220509001",
+  "DevVersion": "1.0.0a20220509001",
   "DirectoryPath": "sdk/extendedlocation/azure-mgmt-extendedlocation",
   "ServiceDirectory": "extendedlocation",
   "ReadMePath": "sdk/extendedlocation/azure-mgmt-extendedlocation/README.md",
