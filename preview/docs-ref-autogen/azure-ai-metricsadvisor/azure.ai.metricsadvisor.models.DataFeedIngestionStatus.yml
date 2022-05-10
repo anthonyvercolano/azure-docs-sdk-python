@@ -1,0 +1,9 @@
+### YamlMime:PythonClass
+uid: azure.ai.metricsadvisor.models.DataFeedIngestionStatus
+name: DataFeedIngestionStatus
+fullName: azure.ai.metricsadvisor.models.DataFeedIngestionStatus
+module: azure.ai.metricsadvisor.models
+inheritances:
+- azure.ai.metricsadvisor._generated.models._models_py3.IngestionStatus
+constructor:
+  syntax: DataFeedIngestionStatus(**kwargs)

@@ -7,28 +7,23 @@ inheritances:
 - msrest.serialization.Model
 summary: The validation result for a linker.
 constructor:
-  syntax: 'ValidateResult(*, name: Optional[str] = None, linker_status: Optional[Union[str,
-    azure.mgmt.servicelinker.models._microsoft_service_linker_enums.LinkerStatus]]
-    = None, reason: Optional[str] = None, report_start_time_utc: Optional[datetime.datetime]
-    = None, report_end_time_utc: Optional[datetime.datetime] = None, target_id: Optional[str]
-    = None, auth_type: Optional[Union[str, azure.mgmt.servicelinker.models._microsoft_service_linker_enums.AuthType]]
+  syntax: 'ValidateResult(*, linker_name: Optional[str] = None, is_connection_available:
+    Optional[bool] = None, report_start_time_utc: Optional[datetime.datetime] = None,
+    report_end_time_utc: Optional[datetime.datetime] = None, source_id: Optional[str]
+    = None, target_id: Optional[str] = None, auth_type: Optional[Union[str, azure.mgmt.servicelinker.models._service_linker_management_client_enums.AuthType]]
+    = None, validation_detail: Optional[List[azure.mgmt.servicelinker.models._models_py3.ValidationResultItem]]
     = None, **kwargs)'
 variables:
 - description: The linker name.
-  name: name
+  name: linker_name
   types:
   - <xref:str>
-- description: 'Specifies if the linker is healthy. Possible values include: "Healthy",
+- description: 'A boolean value indicating whether the connection is available
 
-    "Not healthy".'
-  name: linker_status
+    or not.'
+  name: is_connection_available
   types:
-  - <xref:str>
-  - <xref:microsoft_service_linker.models.LinkerStatus>
-- description: The reason of the error.
-  name: reason
-  types:
-  - <xref:str>
+  - <xref:bool>
 - description: The start time of the validation report.
   name: report_start_time_utc
   types:
@@ -37,6 +32,10 @@ variables:
   name: report_end_time_utc
   types:
   - <xref:datetime.datetime>
+- description: The resource id of the linker source application.
+  name: source_id
+  types:
+  - <xref:str>
 - description: The resource Id of target service.
   name: target_id
   types:
@@ -48,4 +47,8 @@ variables:
   name: auth_type
   types:
   - <xref:str>
-  - <xref:microsoft_service_linker.models.AuthType>
+  - <xref:azure.mgmt.servicelinker.models.AuthType>
+- description: The detail of validation result.
+  name: validation_detail
+  types:
+  - <xref:list>[<xref:azure.mgmt.servicelinker.models.ValidationResultItem>]

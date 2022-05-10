@@ -7,7 +7,10 @@ inheritances:
 - azure.ai.textanalytics._models.DictMixin
 summary: 'AnalyzeHealthcareEntitiesResult contains the Healthcare entities from a
 
-  particular document.'
+  particular document.
+
+
+  New in version 2022-04-01-preview: The *fhir_bundle* property.'
 constructor:
   syntax: AnalyzeHealthcareEntitiesResult(**kwargs)
 variables:
@@ -49,6 +52,14 @@ variables:
   name: statistics
   types:
   - <xref:azure.ai.textanalytics.TextDocumentStatistics>
+- description: 'If *fhir_version* is passed, this will contain a
+
+    FHIR compatible object for consumption in other Healthcare tools. For additional
+
+    information see [https://www.hl7.org/fhir/overview.html](https://www.hl7.org/fhir/overview.html).'
+  name: fhir_bundle
+  types:
+  - <xref:dict>[<xref:str>, <xref:any>]
 - description: 'Boolean check for error item when iterating over list of
 
     results. Always False for an instance of a AnalyzeHealthcareEntitiesResult.'

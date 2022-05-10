@@ -5,6 +5,7 @@ fullName: azure.ai.textanalytics
 type: import
 classes:
 - azure.ai.textanalytics.AnalyzeActionsLROPoller
+- azure.ai.textanalytics.AnalyzeHealthcareEntitiesAction
 - azure.ai.textanalytics.AnalyzeHealthcareEntitiesLROPoller
 - azure.ai.textanalytics.AnalyzeHealthcareEntitiesResult
 - azure.ai.textanalytics.AnalyzeSentimentAction
